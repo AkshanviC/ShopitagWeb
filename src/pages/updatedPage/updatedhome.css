@@ -13,11 +13,11 @@
   padding: 2% 4%;
   background: #003459;
   /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 121, 46, 1) 42%,
-    rgba(0, 212, 255, 1) 99%
-  ); */
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 121, 46, 1) 42%,
+      rgba(0, 212, 255, 1) 99%
+    ); */
   color: white;
 }
 .sectionGrad1 {
@@ -26,12 +26,20 @@
   height: 680px;
   padding: 2% 4%;
   /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 121, 46, 1) 42%,
-    rgba(0, 212, 255, 1) 99%
-  ); */
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 121, 46, 1) 42%,
+      rgba(0, 212, 255, 1) 99%
+    ); */
   color: white;
+}
+.image1 {
+  width: 200px;
+  height: 550px;
+}
+.imageHead {
+  width: 550px;
+  height: 400px;
 }
 .sectionBlack {
   background: black;
@@ -206,7 +214,31 @@
 .billingScan {
   flex-wrap: wrap;
 }
-
+#experience {
+  background: #bfe0f2;
+  color: #003459;
+}
+#details {
+  background: #fcf9d9;
+  color: #228b22;
+}
+#functions {
+  background: white;
+  color: #1e7a96;
+}
+#footer {
+  height: 400px;
+}
+.imageD {
+  width: 150px;
+  height: 50px;
+  /* margin-right: 10px; */
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.inputTag {
+  border-radius: 5px;
+}
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;

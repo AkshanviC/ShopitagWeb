@@ -91,7 +91,7 @@ function Home() {
     <div className="HomeDiv">
       <div className="sectionGrad1" id="home">
         <Navigation paths={location.pathname} />
-        <div className=" flex-row justify-sb">
+        <div className=" flex-row justify-sb wrap">
           <div className={`fade-in-div ${visible ? "visible" : ""}`}>
             <h1>
               Your Shopping <br />
@@ -193,7 +193,10 @@ function Home() {
       </div>
       <div className="sectionGrad flex-clmn" id="experience">
         <h3>Crystal clear UI with easy to use functionality</h3>
-        <div className=" flex-row justify-even align-cen" ref={sectionFourRef}>
+        <div
+          className=" flex-row justify-even align-cen wrap"
+          ref={sectionFourRef}
+        >
           <div className="ssimg border">
             <div className="camera"></div>
             <img

@@ -32,6 +32,9 @@ html {
   align-items: center;
   gap: 10px;
 }
+.justify-center {
+  justify-content: center;
+}
 .justify-even {
   justify-content: space-evenly;
 }
@@ -58,4 +61,7 @@ html {
 }
 .gap-five {
   gap: 5px;
+}
+.wrap {
+  flex-wrap: wrap;
 }

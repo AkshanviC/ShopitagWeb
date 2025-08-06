@@ -9,6 +9,8 @@ import {
 import Home from "./pages/home/home";
 import Aboutus from "./pages/aboutus/aboutus";
 import ContactUs from "./pages/contact/contactus";
+import UpdatedHome from "./pages/updatedPage/updatedPage";
+import AppAi from "./pages/ai page/AppAi";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -35,14 +37,18 @@ function App() {
     );
   };
   return (
-    <Router>
-      {/* <Navigation /> */}
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/aboutus" element={<Aboutus />}></Route>
-        <Route path="/contactus" element={<ContactUs />}></Route>
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        {/* <Navigation /> */}
+        <Routes>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/" element={<UpdatedHome />}></Route>
+          <Route path="/aboutus" element={<Aboutus />}></Route>
+          <Route path="/contactus" element={<ContactUs />}></Route>
+          <Route path="/ai" element={<AppAi />}></Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
